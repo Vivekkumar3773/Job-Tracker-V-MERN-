@@ -20,7 +20,6 @@ app.use(cookieParser());
 // ✅ Correct CORS setup
 const corsOptions = {
     origin: [
-        "http://localhost:5173",
         "https://job-tracker-v-mern.vercel.app"
     ],
     credentials: true
