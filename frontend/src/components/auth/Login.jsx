@@ -13,6 +13,7 @@ import { setLoading, setUser } from '@/redux/authSlice';
 import { Loader2 } from 'lucide-react';
 
 const Login = () => {
+    `${USER_API_END_POINT}/login`
     const [input, setInput] = useState({
         email: '',
         password: '',
